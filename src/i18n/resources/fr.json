@@ -1,0 +1,39 @@
+{
+  "translation": {
+    "english": "Anglais",
+    "russian": "Russe",
+    "french": "Français",
+    "github_code": "Code source",
+    "toggle_color_scheme": "Basculer le thème",
+    "tasks_list": "Liste des exercices",
+    "task_number": "Exercice {{task}}",
+    "open_tasks_list": "Ouvrir la liste des exercices",
+    "show_tables_structure": "Afficher la description des tables",
+    "amount_of_tables": "Nombre de tables",
+    "sql_textarea_label": "Zone de texte pour votre requête SQL",
+    "sql_textarea_placeholder": "Entrez votre requête SQL...",
+    "show_expected_result": "Afficher le résultat attendu",
+    "check_answer": "Vérifier la réponse",
+    "next_task": "Exercice suivant",
+    "error_info": "Erreur : voir le résultat attendu pour vous aider",
+    "tables_description": "Description des tables",
+    "column_property": "Propriété de colonne",
+    "primary_key": "Clé primaire",
+    "foreign_key_to": "Clé étrangère vers",
+    "foreign_key_to_table": "Table",
+    "foreign_key_to_column": "Colonne",
+    "outputs": "Résultats",
+    "your_outputs": "Votre résultat",
+    "here_will_be_your_output": "Voici votre résultat",
+    "expected_output": "Résultat attendu",
+    "no_expected_output_for_task": "Il n'y a pas de résultat attendu pour cet exercice",
+    "correct_answer": "Réponse correcte",
+    "incorrect_answer": "Réponse incorrecte",
+    "topics": {
+      "join": "jointure"
+    },
+    "tasks": {
+     "select_description_of_all_scenarii_and_name_of_their_threats": "Affichez la description de chaque scenario et le nom de la menace associée. \n<0>Instruction à saisir :</0> <1>SELECT description AS nomScenario, nom AS nomMenace FROM scenarii INNER JOIN typeMenace ON scenarii.menace = typeMenace.code;</1><2>Combien de tables sont utilisées dans cette requête ? \n Comment indique-t-on la liaison entre les 2 tables ?</2>"
+  }
+  }
+}
