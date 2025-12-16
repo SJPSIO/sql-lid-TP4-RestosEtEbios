@@ -1,8 +1,8 @@
-# sql-lid-TP3_EBIOS
+# sql-lid-TP7_EBIOS
 
 ## Présentation
 
-Ce tp permet de découvrir les premières bases de SQL.
+Ce tp permet de continuer à découvrir les bases de SQL.
 SQL est le langage d'interrogation de bases de données.
 Le but est d'extraire des données stockées dans des tables de la base de données exemple, ici les bases de données Restos et EBIOS.
 
@@ -12,16 +12,17 @@ La saisie de l'instruction et l'observation du résultat obtenu permettront de c
 Dans un second temps, vous avez des demandes d'extraction à réaliser en autonomie.
 Pas de panique : il suffit de s'inspirer des exemples précédents.
 
-Dans ce troisième TP,
+Dans ce quatrième TP, sont abordées les requêtes utilisant plusieurs tables. 
 
-- sont révisées les clauses `SELECT, FROM, ORDER BY`, la fonction `concat()` et la clause `AS`,
-- est approfondie la CLAUSE `WHERE` avec ses différentes manières d'exprimer plusieurs conditions.
+La clause `FROM`  est complétée de manière à pouvoir relier plusieurs tables à utiliser : 
+```
+SELECT description, nom
+FROM scenarii
+   INNER JOIN typeMenace
+   ON scenarii.menace =   
+   typeMenace.code;
+```
 
-Une condition a toujours la syntaxe suivante : `champ OPERATEUR valeur`.
-Les opérateurs sont : `=`, `!=`,`>`,`>=`,`<`,`<=`,
-Ainsi que les opérateurs : `LIKE "% texteRecherché % " ` ou ` NOT LIKE "% texteAEviter % "` qui permettent de faire une recherche partielle dans une expression.
-
-Les opérateurs `AND` et/ou `OR` sont utiles dès que l'on souhaite exprimer plusieurs conditions dans une requête.
 
 ## Utilisation
 
