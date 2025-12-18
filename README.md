@@ -29,7 +29,7 @@ FROM scenarii
 Une fois le code space ouvert dans VS code, le terminal affiche diverses configurations réalisées.
 
 Ensuite, il suffit de taper sur Entree comme indiqué dans le message du terminal.
-Enfin, pour lancer l'application, saisir l'instruction `npm run dev ` puis Entree
+Enfin, pour lancer l'application, saisir l'instruction `npm run dev` puis Entree
 L'application devrait s'ouvrir dans un navigateur web, à une url semblable à celle-ci : http://localhost:5173/
 
 Vous êtes prêt alors à découvrir, tester puis créer des instructions SQL d'interrogation.
