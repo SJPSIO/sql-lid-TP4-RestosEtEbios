@@ -55,7 +55,7 @@ export const tasksList: Task[] = [
     id: "select_details_of_various_impacts_cause_by_scenarii_involving_intentional_threats",
     topic: "join",
     database: "ebios",
-    referenceSql: "SELECT DISTINCT details FROM impact INNER JOIN engendrer ON impact.code=engendrer.codeImpact INNER JOIN scenario ON scenario.code=engendrer.codeScenario INNER JOIN typeMenace ON typeMenace.code = scenario.menace WHERE categorie ='intentionnelle';",
+    referenceSql: "SELECT DISTINCT details FROM impact INNER JOIN engendrer ON impact.code=engendrer.codeImpact INNER JOIN scenario ON scenario.code=engendrer.codeScenario INNER JOIN typeMenace ON typeMenace.code = scenario.menace WHERE categorie ='Intentionnelle';",
     tables: ["typeMenace", "scenario", "engendrer", "impact"]
   }
   ,
