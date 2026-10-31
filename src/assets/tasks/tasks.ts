@@ -87,7 +87,7 @@ export const tasksList: Task[] = [
     id: "select_pseudo_of_utilisateur_who_post_a_note",
     topic: "join",
     database: "restos",
-    referenceSql: "SELECT peusdoU FROM critiquer INNER JOIN utilisateur ON critique.mailU = utilisateur.mailU;",
+    referenceSql: "SELECT pseudoU FROM critiquer INNER JOIN utilisateur ON critiquer.mailU = utilisateur.mailU;",
     tables: ["critiquer", "utilisateur"]
   }
  ,
@@ -119,7 +119,7 @@ export const tasksList: Task[] = [
     id: "select_pseudo_who_like_barDuMarche",
     topic: "join",
     database: "restos",
-    referenceSql: "SELECT pseudo FROM utilisateur INNER JOIN aimer ON aimer.mailU=utilisateur.mailU INNER JOIN resto ON aimer.idR=resto.idR WHERE nom=’Bar du Marché’;",
+    referenceSql: "SELECT pseudoU FROM utilisateur INNER JOIN aimer ON aimer.mailU=utilisateur.mailU INNER JOIN resto ON aimer.idR=resto.idR WHERE nomR='Bar du Marché';",
     tables: ["utilisateur","aimer", "resto"]
   }
   ,
