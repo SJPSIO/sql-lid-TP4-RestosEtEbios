@@ -41,7 +41,8 @@
      "select_details_of_various_impacts_cause_by_scenarii_involving_intentional_threats": "Détails des différents impacts engendrés par des scenarii concernés par les menaces intentionnelles",
      "select_details_of_various_impacts_and_support_on_database_related_scenarii": "Détails des différents impacts engendrés sur des scenarii liés au support contenant 'bases de données' (affichez le support également)",
      "select_name_of_threats_related_to_scenarii_stipuling_usurpation_and_authentification": "Libellé des menaces liées à des scenarii stipulant les expressions 'usurpation' et 'authentification' (affichez la description du scenario également)",
-     "select_description_of_scenario_classified_by_threat_category_asc_and_description_desc": "Description des scenarii (renommée descriptionScenario) classées par catégorie de menace (ordre alphabétique) puis description (ordre alphabétique inverse)"
+     "select_description_of_scenario_classified_by_threat_category_asc_and_description_desc": "Description des scenarii (renommée descriptionScenario) classées par catégorie de menace (ordre alphabétique) puis description (ordre alphabétique inverse)",
+      "select_pseudo_of_utilisateur_who_post_a_note":"Pseudo des utilisateurs ayant déjà déposé une note.",
   }
   }
 }
