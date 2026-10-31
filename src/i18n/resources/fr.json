@@ -52,9 +52,9 @@
 	 "select_name_of_resto_who_have_photo_V2":"Nom des restaurants ayant des photos VERSION 2.\n<0>Instruction à saisir :</0> <1>SELECT nomR FROM resto WHERE idR IN (SELECT idR FROM photo);\n</1>",
 	 "select_cuisine_liked_by_Mitch":"Types de cuisine (libellés triés par ordre alphabétique inverse), préférées par Mitch (pseudo)",
 	 "select_pseudo_liked_japonaise_or_vegetarienne":"Pseudo des personnes préférant la cuisine japonaise ou vegetarienne.",
-	 "select_name_of_resto_who_have_not_critique":"Nom des restaurants n’ayant pas de critique",
-	 "select_cuisine_who_dont_have_prefered":"Types de cuisine préférés par personne",
-	 "select_pseudo_who_havent_put_critique":"Pseudo n’ayant émis aucune critique",
+	 "select_name_of_resto_who_have_not_critique":"Nom des restaurants n’ayant pas de critique.",
+	 "select_cuisine_who_dont_have_prefered":"Types de cuisine préférés par personne.",
+	 "select_pseudo_who_havent_put_critique":"Pseudo n’ayant émis aucune critique."
   }
   }
 }
