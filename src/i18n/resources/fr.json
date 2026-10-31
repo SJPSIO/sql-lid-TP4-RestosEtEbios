@@ -42,7 +42,19 @@
      "select_details_of_various_impacts_and_support_on_database_related_scenarii": "Détails des différents impacts engendrés sur des scenarii liés au support contenant 'bases de données' (affichez le support également)",
      "select_name_of_threats_related_to_scenarii_stipuling_usurpation_and_authentification": "Libellé des menaces liées à des scenarii stipulant les expressions 'usurpation' et 'authentification' (affichez la description du scenario également)",
      "select_description_of_scenario_classified_by_threat_category_asc_and_description_desc": "Description des scenarii (renommée descriptionScenario) classées par catégorie de menace (ordre alphabétique) puis description (ordre alphabétique inverse)",
-      "select_pseudo_of_utilisateur_who_post_a_note":"Pseudo des utilisateurs ayant déjà déposé une note.",
+     "select_pseudo_of_utilisateur_who_post_a_note":"Pseudo des utilisateurs ayant déjà déposé une note.",
+	 "select_name_of_resto_who_have_a_note":"Nom des restaurants ayant eu des critiques",
+	 "select_cuisine_of_resto_orderby_resto":"Types de cuisine proposés par chaque restaurant, trié par nom de restaurant.",
+	 "select_name_of_resto_who_propose_cuisine_of_sudouest":"Nom des restaurants proposant la cuisine du 'sud ouest'.",
+	 "select_pseudo_who_like_barDuMarche":"Pseudo des personnes aimant le restaurant 'Bar du Marché'.",
+	 "select_name_of_resto_who_have_photo":"Nom des restaurants ayant des photos.",
+	 "select_name_of_resto_who_dont_have_photo":"Nom des restaurants N'ayant PAS des photos.\n<0>Instruction à saisir :</0> <1>SELECT nomR FROM resto WHERE idR NOT IN (SELECT idR FROM photo);\n</1>",
+	 "select_name_of_resto_who_have_photo_V2":"Nom des restaurants ayant des photos VERSION 2.\n<0>Instruction à saisir :</0> <1>SELECT nomR FROM resto WHERE idR IN (SELECT idR FROM photo);\n</1>",
+	 "select_cuisine_liked_by_Mitch":"Types de cuisine (libellés triés par ordre alphabétique inverse), préférées par Mitch (pseudo)",
+	 "select_pseudo_liked_japonaise_or_vegetarienne":"Pseudo des personnes préférant la cuisine japonaise ou vegetarienne.",
+	 "select_name_of_resto_who_have_not_critique":"Nom des restaurants n’ayant pas de critique",
+	 "select_cuisine_who_dont_have_prefered":"Types de cuisine préférés par personne",
+	 "select_pseudo_who_havent_put_critique":"Pseudo n’ayant émis aucune critique",
   }
   }
 }
