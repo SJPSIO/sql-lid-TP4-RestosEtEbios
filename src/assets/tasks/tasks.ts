@@ -12,14 +12,14 @@ export interface Task {
 
 export const tasksList: Task[] = [
   // Exemple fourni
-  { // Task 0
+  { // Task 1
     id: "select_description_of_all_scenarii_and_name_of_their_threats",
     topic: "join",
     database: "ebios",
     referenceSql: "SELECT description AS nomScenario, nom AS nomMenace FROM scenario INNER JOIN typeMenace ON scenario.menace = typeMenace.code;",
     tables: ["scenario", "typeMenace"]
   },
-  { // Task 1
+  { // Task 2
     id: "select_description_of_different_scenarii_that_have_impact",
     topic: "join",
     database: "ebios",
@@ -27,7 +27,7 @@ export const tasksList: Task[] = [
     tables: ["scenario", "engendrer"]
   }
   ,
-  { // Task 2
+  { // Task 3
     id: "select_details_of_impacts_caused_by_scenario_S1",
     topic: "join",
     database: "ebios",
@@ -35,7 +35,7 @@ export const tasksList: Task[] = [
     tables: ["impact", "engendrer"]
   }
   ,
-  { // Task 3 - exemple fourni = 2 jointures
+  { // Task 4 - exemple fourni = 2 jointures
     id: "select_description_of_all_scenarii_and_name_of_their_impacts",
     topic: "join",
     database: "ebios",
@@ -43,7 +43,7 @@ export const tasksList: Task[] = [
     tables: ["scenario", "engendrer", "impact"]
   }
   ,
-  { // Task 4 
+  { // Task 5
     id: "select_name_of_threats_involved_in_scenarii_that_have_impacts",
     topic: "join",
     database: "ebios",
@@ -51,7 +51,7 @@ export const tasksList: Task[] = [
     tables: ["typeMenace", "scenario", "engendrer"]
   }
   ,
-  { // Task 5
+  { // Task 6
     id: "select_details_of_various_impacts_cause_by_scenarii_involving_intentional_threats",
     topic: "join",
     database: "ebios",
@@ -59,7 +59,7 @@ export const tasksList: Task[] = [
     tables: ["typeMenace", "scenario", "engendrer", "impact"]
   }
   ,
-  { // Task 6
+  { // Task 7
     id: "select_details_of_various_impacts_and_support_on_database_related_scenarii",
     topic: "join",
     database: "ebios",
@@ -67,7 +67,7 @@ export const tasksList: Task[] = [
     tables: ["scenario", "engendrer", "impact"]
   }
  ,
-  { // Task 7
+  { // Task 8
     id: "select_name_of_threats_related_to_scenarii_stipuling_usurpation_and_authentification",
     topic: "join",
     database: "ebios",
@@ -75,11 +75,20 @@ export const tasksList: Task[] = [
     tables: ["scenario", "typeMenace"]
   }
   ,
-  { // Task 8
+  { // Task 9
     id: "select_description_of_scenario_classified_by_threat_category_asc_and_description_desc",
     topic: "join",
     database: "ebios",
     referenceSql: "SELECT categorie, description AS descriptionScenario FROM typeMenace INNER JOIN scenario ON scenario.menace=typeMenace.code ORDER BY categorie, description DESC;",
     tables: ["scenario", "typeMenace"]
   }
+,
+  { // Task 10
+    id: "select_pseudo_of_utilisateur_who_post_a_note",
+    topic: "join",
+    database: "restos",
+    referenceSql: "SELECT peusdoU FROM critiquer INNER JOIN utilisateur ON critique.mailU = utilisateur.mailU;",
+    tables: ["critiquer", "utilisateur"]
+  }
+  
 ];
